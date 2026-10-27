@@ -4,20 +4,6 @@
 
 The application addresses everyday hostel operations by providing dedicated role portals for **Hostel Residents (Students)** and the **Hostel Warden / Administration**.
 
----
-
-## 👥 Team Formation & Technical Roles
-
-The project was executed by a collaborative team of three students with clear technical division:
-
-| Team Member | Technical Role | Assigned Responsibilities & Modules Developed |
-| :--- | :--- | :--- |
-| **Student A** | **Team Leader & App Developer** | Overall application architecture, Activity lifecycle management, Student & Warden navigation flow, Room allocation logic, simulated fee payment engine, project integration, and hardware deployment. |
-| **Student B** | **UI/UX Developer** | Material 3 UI design system, color palette (Hostel Navy `#1E3A8A` & Amber `#F59E0B`), XML screen layouts, responsive CardViews, vector drawables, status badges, and custom RecyclerView adapters (`ComplaintAdapter`, `RoomAdapter`, `FeeAdapter`, `StudentAdapter`). |
-| **Student C** | **Database & Documentation Developer** | Normalized SQLite database schema (`HostelDbHelper.java`) with 4 relational tables, complete CRUD operations, atomic transactions, session management (`SessionManager.java`), input validations, 15-point functional test case matrix execution, and the final academic project report. |
-
----
-
 ## 🔑 Quick Demo Credentials (Pre-Configured)
 
 The app comes pre-populated with realistic seed data so evaluators can test every feature immediately:
@@ -130,26 +116,6 @@ mad_hostel-manager/
 ├── settings.gradle.kts
 ├── gradlew.bat
 └── README.md
-```
-
----
-
-## 📄 Academic Project Report (.docx)
-
-A complete university-format project report has been compiled and saved as:
-**`Hostel_Manager_Mini_Project_Report.docx`**
-
-The report includes:
-1. Cover Page & Group Technical Responsibility Breakdown
-2. Certificate of Authenticity & Student Declaration
-3. Abstract
-4. Introduction, Problem Statement & Objectives
-5. Literature & Existing System Study
-6. Functional & Non-Functional Requirements Matrix
-7. Technology Stack Selection & Justification
-8. System Architecture Diagram
-9. Database Design & Data Dictionaries (users, rooms, complaints, fees)
-10. Implementation & Class Breakdown
 11. **Application Screenshots** (All 13 high-resolution screenshots captured directly from the physical phone)
 12. 15-Point Functional Test Case Matrix (All Passed)
 13. Challenges Encountered & Technical Solutions
