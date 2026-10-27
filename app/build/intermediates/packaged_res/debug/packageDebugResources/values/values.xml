@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent">#F59E0B</color>
+    <color name="background">#F8FAFC</color>
+    <color name="black">#000000</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="primary">#1E3A8A</color>
+    <color name="primary_dark">#0F172A</color>
+    <color name="primary_light">#3B82F6</color>
+    <color name="status_in_progress">#2563EB</color>
+    <color name="status_in_progress_bg">#DBEAFE</color>
+    <color name="status_paid">#059669</color>
+    <color name="status_pending">#D97706</color>
+    <color name="status_pending_bg">#FEF3C7</color>
+    <color name="status_resolved">#059669</color>
+    <color name="status_resolved_bg">#D1FAE5</color>
+    <color name="status_unpaid">#DC2626</color>
+    <color name="status_unpaid_bg">#FEE2E2</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Hostel Manager</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email Address</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="name">Full Name</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="role_admin">Hostel Warden / Admin</string>
+    <string name="role_admin_desc">Manage rooms, resolve complaints &amp; monitor student records</string>
+    <string name="role_student">Student Portal</string>
+    <string name="role_student_desc">Access room details, raise complaints &amp; manage hostel fees</string>
+    <string name="roll_no">Roll Number</string>
+    <string name="submit">Submit</string>
+    <string name="tagline">Smart &amp; Seamless Campus Living</string>
+    <string name="welcome_title">Hostel Management System</string>
+    <style name="Theme.HostelManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar" ns1:targetApi="m">false</item>
+    </style>
+</resources>

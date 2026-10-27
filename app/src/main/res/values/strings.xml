@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hostel Manager</string>
+    <string name="welcome_title">Hostel Management System</string>
+    <string name="tagline">Smart &amp; Seamless Campus Living</string>
+    <string name="role_student">Student Portal</string>
+    <string name="role_student_desc">Access room details, raise complaints &amp; manage hostel fees</string>
+    <string name="role_admin">Hostel Warden / Admin</string>
+    <string name="role_admin_desc">Manage rooms, resolve complaints &amp; monitor student records</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="name">Full Name</string>
+    <string name="roll_no">Roll Number</string>
+    <string name="phone">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+</resources>
